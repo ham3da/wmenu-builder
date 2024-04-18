@@ -9,7 +9,7 @@ forked from [https://github.com/lordmacu/wmenu](https://github.com/harimayco/wme
 1. Run
 
 ```php
-composer require harimayco/laravel-menu
+composer require ham3da/laravel-menu
 ```
 
 **_Step 2 & 3 are optional if you are using laravel 5.5_**
