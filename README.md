@@ -1,4 +1,6 @@
 # Laravel Drag and Drop menu editor like wordpress
+Drag and drop menu generator like wordpress for laravel 5 to 10
+
 forked from [https://github.com/lordmacu/wmenu](https://github.com/harimayco/wmenu-builder)
 ![Laravel drag and drop menu](https://raw.githubusercontent.com/harimayco/wmenu-builder/master/screenshot.png)
 
