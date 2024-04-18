@@ -25,16 +25,16 @@
     },
     "autoload": {
         "psr-4": {
-          "Harimayco\\Menu\\": "src/"
+          "Ham3da\\Menu\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Harimayco\\Menu\\MenuServiceProvider"
+                "Ham3da\\Menu\\MenuServiceProvider"
             ],
             "aliases": {
-                "Menu": "Harimayco\\Menu\\Facades\\Menu"
+                "Menu": "Ham3da\\Menu\\Facades\\Menu"
             }
         }
     },

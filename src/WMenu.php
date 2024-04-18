@@ -1,10 +1,10 @@
 <?php
 
-namespace Harimayco\Menu;
+namespace Ham3da\Menu;
 
 use App\Http\Requests;
-use Harimayco\Menu\Models\Menus;
-use Harimayco\Menu\Models\MenuItems;
+use Ham3da\Menu\Models\Menus;
+use Ham3da\Menu\Models\MenuItems;
 use Illuminate\Support\Facades\DB;
 
 class WMenu

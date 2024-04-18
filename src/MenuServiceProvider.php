@@ -1,6 +1,6 @@
 <?php
 
-namespace Harimayco\Menu;
+namespace Ham3da\Menu;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
@@ -29,7 +29,7 @@ class MenuServiceProvider extends ServiceProvider
         ], 'view');
 
         $this->publishes([
-            __DIR__ . '/../assets' => public_path('vendor/harimayco-menu'),
+            __DIR__ . '/../assets' => public_path('vendor/ham3da-menu'),
         ], 'public');
 
         $this->publishes([
@@ -46,11 +46,11 @@ class MenuServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('harimayco-menu', function () {
+        $this->app->bind('ham3da-menu', function () {
             return new WMenu();
         });
 
-        $this->app->make('Harimayco\Menu\Controllers\MenuController');
+        $this->app->make('Ham3da\Menu\Controllers\MenuController');
         $this->mergeConfigFrom(
             __DIR__ . '/../config/menu.php',
             'menu'

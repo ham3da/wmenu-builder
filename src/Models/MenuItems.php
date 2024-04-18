@@ -1,6 +1,6 @@
 <?php
 
-namespace Harimayco\Menu\Models;
+namespace Ham3da\Menu\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -33,11 +33,11 @@ class MenuItems extends Model
 
     public function parent_menu()
     {
-        return $this->belongsTo('Harimayco\Menu\Models\Menus', 'menu');
+        return $this->belongsTo('Ham3da\Menu\Models\Menus', 'menu');
     }
 
     public function child()
     {
-        return $this->hasMany('Harimayco\Menu\Models\MenuItems', 'parent')->orderBy('sort', 'ASC');
+        return $this->hasMany('Ham3da\Menu\Models\MenuItems', 'parent')->orderBy('sort', 'ASC');
     }
 }

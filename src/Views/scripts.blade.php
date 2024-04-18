@@ -27,6 +27,6 @@
 		}
 	});
 </script>
-<script type="text/javascript" src="{{asset('vendor/harimayco-menu/scripts.js')}}"></script>
-<script type="text/javascript" src="{{asset('vendor/harimayco-menu/scripts2.js')}}"></script>
-<script type="text/javascript" src="{{asset('vendor/harimayco-menu/menu.js')}}"></script>
+<script type="text/javascript" src="{{asset('vendor/ham3da-menu/scripts.js')}}"></script>
+<script type="text/javascript" src="{{asset('vendor/ham3da-menu/scripts2.js')}}"></script>
+<script type="text/javascript" src="{{asset('vendor/ham3da-menu/menu.js')}}"></script>
