@@ -1,6 +1,7 @@
 {
     "name": "ham3da/laravel-menu",
     "description": "drag and drop menu generator like wordpress for laravel 5 to 10",
+	"license": "MIT",
     "keywords": ["Laravel", "Menu", "Wordpress", "Builder"],
 	"homepage" : "https://github.com/ham3da/wmenu-builder",
     "authors": [
